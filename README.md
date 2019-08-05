@@ -1,2 +1,2 @@
-# shiny_website
-Small website run entirely in Shiny container
+# Shiny Website
+Small website run entirely in a Shiny docker container.
