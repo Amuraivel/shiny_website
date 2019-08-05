@@ -22,6 +22,7 @@ RUN wget --no-verbose https://s3.amazonaws.com/rstudio-shiny-server-os-build/ubu
 # Install R packages that are required
 # TODO: add further package if you need!
 RUN R -e "install.packages(c('shiny', 'shinydashboard'), repos='http://cran.rstudio.com/')"
+RUN R -e "install.packages('markdown')"
 
 # Copy configuration files into the Docker image
 COPY shiny-server.conf  /etc/shiny-server/shiny-server.conf
@@ -33,4 +34,6 @@ EXPOSE 80
 # Copy further configuration files into the Docker image
 COPY shiny-server.sh /usr/bin/shiny-server.sh
 RUN ["chmod", "+x", "/usr/bin/shiny-server.sh"]
+RUN ["chmod", "+xr", "/srv/shiny-server/index.html"]
+RUN ["chmod", "+xr", "/srv/shiny-server/contact.html"]
 CMD ["/usr/bin/shiny-server.sh"]
