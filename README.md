@@ -1,2 +1,2 @@
 # Shiny Website
-Small website run entirely in a Shiny docker container.
+Small website done entirely in R Shiny, and run in a portable docker container for easy deploy.
