@@ -1,0 +1,9 @@
+---
+title: "Contact"
+output: 
+ html_document:
+    theme: null
+    highlight: null
+    css: styles.css
+---
+If you have a statistical question or project, don't hesitate to send an email to [Mark James Thompson](mailto:amuraivel@gmail.com) or via LinkedIn at [https://www.linkedin.com/in/mark-james-thompson/](https://www.linkedin.com/in/mark-james-thompson/).
