@@ -1,0 +1,42 @@
+/*
+#203A72 = dark blue
+#00608F = medium blue
+#0093AF = aqua
+#CCEDFB = powder blue
+*/
+
+* {
+ font-size: 100%;
+ size: 12;
+ color: #203A72;
+ font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+}
+
+body {
+  background-color: #CCEDFB;
+}
+
+h1 {
+  font-size: 150%;
+  font-weight:bold;
+}
+
+h2 {
+  font-size: 130%;
+  font-weight:bold;
+}
+
+h3 {
+  font-size: 115%;
+  font-weight:bold;
+}
+
+
+
+footer {
+  size: 70%;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;            /* Footer height */
+}

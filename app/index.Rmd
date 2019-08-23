@@ -4,15 +4,12 @@ output:
  html_document:
     theme: null
     highlight: null
-    css: styles.css
+    css: ./www/styles.css
 ---
 Arêté is a statistical consultancy that focuses on causal inference using theory, data, and statistics.
 
 ## Statistical Consultancy
 We answer statistical questions, build models, and implement statistical solutions for decision makers. We typically deal with questions related to clinical trials and financial modeling, where causality must be established, but naturally we are happy to answer a broad range of questions.
-
-## Pharma Fund
-The Arêté pharma fund combines information from patents and clinical trials to generate alpha in a long-short equity strategy.
 
 ## Managed Option Accounts
 For friends and family, we manage short-option portfolios.
