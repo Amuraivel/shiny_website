@@ -4,6 +4,10 @@ output:
  html_document:
     theme: null
     highlight: null
-    css: styles.css
+    css: ./www/styles.css
 ---
-If you have a statistical question or project, don't hesitate to send an email to [Mark James Thompson](mailto:amuraivel@gmail.com) or via LinkedIn at [https://www.linkedin.com/in/mark-james-thompson/](https://www.linkedin.com/in/mark-james-thompson/).
+If you have a brief medical statistics question/problem, or smallish biostats project, I can be immediately hired through [Fivrr under the user name: <b>markthompson007</b>](https://www.fiverr.com/markthompson007/help-with-medical-statistics).
+
+Or, if you need help with a larger or different type of statistical/data project, you can drop me an email at: [<b>mark@arêté.com</b>](mailto:mark@arêté.com).
+
+I am interested in getting published in medical and biostats journals, so if you are a medical researcher or academic who needs a statistically-savvy coauthor to help with research design, pharmacodynamic modeling, causal inteference, data analysis, etc., please do not hesitate to get in touch. I'm on [LinkedIn at: <b>mark-james-thompson</b>](http://www.linkedin.com/in/mark-james-thompson).
